@@ -1,10 +1,10 @@
 ---
 title: "Endo-VMFuseNet: A deep visual-magnetic sensor fusion approach for endoscopic capsule robots"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2017-09-18-Endo-VMFuseNet
 excerpt: ''
 date: 2017-09-18
-venue: 'Journal 1'
+venue: '2018 IEEE International Conference on Robotics and Automation (ICRA)'
 paperurl: 'https://arxiv.org/pdf/1709.06041'
 ---
 
