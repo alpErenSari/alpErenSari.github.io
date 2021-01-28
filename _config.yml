@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Alp Eren SARI"
   avatar           : "IMG_20190921_190935.jpg"
-  bio              : "PhD student, research and teaching assistant at Computer Vision Group (CVG) of University of Bern "
+  bio              : "Ph.D. student at Computer Vision Group (CVG) of University of Bern "
   location         : "Bern"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com.tr/citations?user=KBeTs3kAAAAJ&hl=en"
+  googlescholar    :  "https://scholar.google.com.tr/citations?user=KBeTs3kAAAAJ&hl=en"
   email            :  "alp.sari@inf.unibe.ch"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/alperensari/"
   orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
