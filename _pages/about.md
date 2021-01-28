@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a PhD student in the [Computer Vision Group](https://www.cvg.unibe.ch/) at the University of Bern, supervised by Prof. Dr. Paolo Favaro. I received my Bachelor's and Master's degrees in Electrical and Electronics Engineering from [METU](https://www.metu.edu.tr/) in 2018 and 2020. My research interests include unsupervised representation learning and self-supervised contrastive learning.
+I am a PhD student in the [Computer Vision Group](https://www.cvg.unibe.ch/) at the University of Bern, supervised by Prof. Paolo Favaro. I received my Bachelor's and Master's degrees in Electrical and Electronics Engineering from [METU](https://www.metu.edu.tr/) in 2018 and 2020. My research interests include unsupervised representation learning and self-supervised contrastive learning.
 
 News
 ======
