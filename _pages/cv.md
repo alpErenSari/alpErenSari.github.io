@@ -8,12 +8,13 @@ redirect_from:
 ---
 
 {% include base_path %}
+Follow the [link](/files/alp_eren_sari_CV_Jan_2021.pdf) for my detailed CV.
 
 Education
 ======
-* B.S. in Electrical and Electronics Engineering, Middle East Technical University, 2018
-* M.S. in Electrical and Electronics Engineering, Middle East Technical University, 2020
 * Ph.D in Computer Vision, University of Bern, ongoing
+* M.S. in Electrical and Electronics Engineering, Middle East Technical University, 2020
+* B.S. in Electrical and Electronics Engineering, Middle East Technical University, 2018
 
 Work experience
 ======
@@ -71,5 +72,3 @@ Service and leadership
 * Currently signed in to 43 different slack teams
 
 --->
-
-Moreover, follow the [link](/files/alp_eren_sari_CV_Jan_2021.pdf) for my detailed CV.
