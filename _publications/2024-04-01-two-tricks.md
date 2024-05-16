@@ -4,11 +4,11 @@ collection: publications
 permalink: /publications/2024-04-01-two-tricks
 excerpt: ''
 date: 2024-04-01
-venue: 'arXiv:2404.03392'
+venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2404.03392'
 ---
 
-[[PDF](https://arxiv.org/abs/2404.03392)]
+[[arXiv](https://arxiv.org/abs/2404.03392)]
 
 Abstract
 ======
