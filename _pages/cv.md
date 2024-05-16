@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-Follow the [link](/files/alp_eren_sari_CV_Sep_2022.pdf) for my detailed CV.
+Follow the [link](/files/alp_eren_sari_CV_2024.pdf) for my detailed CV.
 
 Education
 ======
