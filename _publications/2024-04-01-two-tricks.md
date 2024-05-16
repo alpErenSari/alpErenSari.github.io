@@ -1,15 +1,15 @@
 ---
-title: "Image-based construction of building energy models using computer vision"
+title: "Two Tricks to Improve Unsupervised Segmentation Learning"
 collection: publications
-permalink: /publications/2020-08-01-image-based-construction
+permalink: /publications/2024-04-01-two-tricks
 excerpt: ''
-date: 2020-08-01
-venue: 'Automation in Construction'
-paperurl: 'https://www.sciencedirect.com/science/article/pii/S0926580519313287'
+date: 2024-04-01
+venue: 'arXiv:2404.03392'
+paperurl: 'https://arxiv.org/abs/2404.03392'
 ---
 
-[[PDF](https://www.sciencedirect.com/science/article/pii/S0926580519313287)]
+[[PDF](https://arxiv.org/abs/2404.03392)]
 
 Abstract
 ======
-Improving existing buildings' energy performance requires energy models that accurately represent the building. Computer vision methods, particularly image-based 3D reconstruction, can effectively support the creation of 3D building models. In this paper, we present an image-based 3D reconstruction pipeline that supports the semi-automated modeling of existing buildings. We developed two methods for the robust estimation of the building planes from a 3D point cloud that (i) independently estimate each plane and (ii) impose a perpendicularity constraint to plane estimation. We also estimate external walls' thermal transmittance values using an infrared thermography-based method, with the surface temperatures measured by a thermal camera. We validate our approach (i) by testing the pipeline's ability in constructing accurate surface models subject to different image sets with varying sizes and levels of image quality, and (ii) through a comparative analysis between the calculated energy performance metrics of a ground truth and calculated energy simulation model.
+We present two practical improvement techniques for unsupervised segmentation learning. These techniques address limitations in the resolution and accuracy of predicted segmentation maps of recent state-of-the-art methods. Firstly, we leverage image post-processing techniques such as guided filtering to refine the output masks, improving accuracy while avoiding substantial computational costs. Secondly, we introduce a multi-scale consistency criterion, based on a teacher-student training scheme. This criterion matches segmentation masks predicted from regions of the input image extracted at different resolutions to each other. Experimental results on several benchmarks used in unsupervised segmentation learning demonstrate the effectiveness of our proposed techniques.

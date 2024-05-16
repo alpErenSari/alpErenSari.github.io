@@ -12,6 +12,7 @@ I am a PhD student in the [Computer Vision Group](https://www.cvg.unibe.ch/) at 
 News
 ======
 * November 2020, I moved to Bern, Switzerland to begin my Ph.D. studies at University of Bern
+* April 2024, Our new manuscript "Two Tricks to Improve Unsupervised Segmentation Learning" is on [arxiv](https://arxiv.org/abs/2404.03392)
 
 
 <!---

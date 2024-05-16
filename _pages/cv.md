@@ -18,6 +18,12 @@ Education
 
 Work experience
 ======
+* December 2020: Research and Teaching Assistant
+  * [Computer Vision Group](https://www.cvg.unibe.ch/), University of Bern
+  * Topic: Unsupervised image segmentation and unsupervised disentangled representations
+  * Duties included: Research Assistant, Teaching Assitant
+  * Supervisor: [Prof. Paolo Favaro](https://www.cvg.unibe.ch/people/favaro)
+
 * August 2018 - May 2020: Research Assistant
   * [Center for Image Analysis (OGAM)](http://ogam.metu.edu.tr/en/), Middle East Technical University
   * Project: A Stakeholder-Oriented Intelligent System for Building Energy Retrofitting (Newton-Katip Çelebi fund, Grant No. 217M519)
