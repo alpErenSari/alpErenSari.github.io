@@ -11,7 +11,7 @@ I am a PhD student in the [Computer Vision Group](https://www.cvg.unibe.ch/) at 
 
 News
 ======
-* April 2024, Our new manuscript "FlowCut: Unsupervised Video Instance Segmentation via Temporal Mask Matching" is on [arxiv](https://arxiv.org/abs/2505.13174)
+* May 2025, Our new manuscript "FlowCut: Unsupervised Video Instance Segmentation via Temporal Mask Matching" is on [arxiv](https://arxiv.org/abs/2505.13174)
 * April 2024, Our new manuscript "Boosting Unsupervised Segmentation Learning" is on [arxiv](https://arxiv.org/abs/2404.03392)
 
 
