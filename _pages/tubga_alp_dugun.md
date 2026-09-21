@@ -17,7 +17,7 @@ Bu mutlu günümüzde sizi de aramızda görmek isteriz.
 
 ### 📅 Tarih
 
-**31 Ekim 2026, 16.00**
+**31 Ekim 2026, Saat: 16.00**
 
 [Google Takvime Ekle](https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=Mjk0cDRnaTkydTBudG9zMzY2cWhsdjFzOTYgYWxwZXJlbnNhcmk5NUBt&amp;tmsrc=alperensari95%40gmail.com){: .btn target="_blank"}
 
