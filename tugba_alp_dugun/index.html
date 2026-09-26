@@ -21,7 +21,8 @@
   rel="stylesheet"
 />
 
-<link rel="stylesheet" href="/tugba_alp_dugun_assets/styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💍</text></svg>" />
+<link rel="stylesheet" href="styles.css" />
 
 </head>
 
@@ -47,6 +48,15 @@
 
   <div class="gate__paper">
 
+    <!-- YENİ ZARF GÖRSELİ -->
+    <img
+      class="gate__zarf-image"
+      src="zarf.png"
+      alt=""
+      aria-hidden="true"
+      draggable="false"
+    >
+
     <div class="gate__texture"></div>
 
     <div class="gate__fold gate__fold--tl"></div>
@@ -56,7 +66,7 @@
 
 
     <p class="gate__eyebrow" data-gate-item>
-      Birlikte yazdığımız hikâyenin en güzel günü
+      Birlikte yazdığımız hikayenin en güzel günü
     </p>
 
 
@@ -69,6 +79,7 @@
         viewBox="0 0 40 16"
         aria-hidden="true"
       >
+
         <path
           d="M20 2c3 4 6 5 10 6-4 1-7 2-10 6-3-4-6-5-10-6 4-1 7-2 10-6Z"
           fill="currentColor"
@@ -90,12 +101,17 @@
           fill="currentColor"
           opacity=".4"
         />
+
       </svg>
 
       <span class="rule__line"></span>
 
     </div>
 
+
+    <!-- =========================================
+         MÜHÜR
+    ========================================== -->
 
     <button
       class="seal"
@@ -214,10 +230,12 @@
         viewBox="0 0 16 16"
         aria-hidden="true"
       >
+
         <path
           d="M4 2.5 12.5 8 4 13.5V2.5Z"
           fill="currentColor"
         />
+
       </svg>
 
       Davetiyeyi Aç
@@ -231,26 +249,14 @@
 
 
 <!-- =========================================
-     2. CURTAIN
+     2. BALLOON TRANSITION
 ========================================= -->
 
 <div
-  class="stage"
-  id="stage"
+  class="balloon-transition"
+  id="balloonTransition"
   aria-hidden="true"
->
-
-  <div class="stage__valance"></div>
-
-  <div class="curtain curtain--left"></div>
-  <div class="curtain curtain--right"></div>
-
-  <div class="column column--left"></div>
-  <div class="column column--right"></div>
-
-</div>
-
-
+></div>
 
 <main class="page" id="page">
 
@@ -282,7 +288,7 @@
         playsinline
         preload="auto"
       >
-        <source src="/tugba_alp_dugun_assets/wonders.mp4" type="video/mp4">
+        <source src="wonders.mp4" type="video/mp4">
       </video>
 
     </div>
@@ -502,7 +508,7 @@
     class="kicker"
     data-reveal
   >
-    Düğün Mekânı
+    Düğün Mekanı
   </p>
 
 
@@ -520,7 +526,7 @@
     data-reveal
     style="--d:.12s"
   >
-    Beştepe · Ankara
+    Alparslan Türkeş Caddesi No:6 Beştepe · Ankara
   </p>
 
 
@@ -532,7 +538,7 @@
   <div class="plate__inner">
 
     <img
-      src="/tugba_alp_dugun_assets/wonders-mekan.jpg"
+      src="wonders-mekan.jpg"
       alt="Wonders Beştepe"
       loading="lazy"
       decoding="async"
@@ -578,197 +584,335 @@
 
 
 
-<!-- =========================================
-     6. ORDER OF THE DAY
-========================================= -->
+<!-- ========================================= 
+     6. ORDER OF THE DAY 
+========================================= --> 
+ 
+<section class="band schedule"> 
+ 
+  <p 
+    class="kicker" 
+    data-reveal 
+  > 
+    Düğünümüz 
+  </p> 
+ 
+ 
+  <h2 
+    class="heading heading--script" 
+    data-reveal 
+    style="--d:.06s" 
+  > 
+    Günün Akışı 
+  </h2> 
+ 
+ 
+  <div 
+    class="rule" 
+    data-reveal 
+    style="--d:.12s" 
+  > 
+ 
+    <span class="rule__line"></span> 
+ 
+    <svg 
+      class="rule__mark" 
+      viewBox="0 0 40 16" 
+      aria-hidden="true" 
+    > 
+      <path 
+        d="M20 2c3 4 6 5 10 6-4 1-7 2-10 6-3-4-6-5-10-6 4-1 7-2 10-6Z" 
+        fill="currentColor" 
+        opacity=".55" 
+      /> 
+    </svg> 
+ 
+    <span class="rule__line"></span> 
+ 
+  </div> 
+ 
+ 
+  <ol 
+    class="timeline" 
+    id="timeline" 
+  > 
+ 
+    <span 
+      class="timeline__track" 
+      aria-hidden="true" 
+    > 
+      <span 
+        class="timeline__fill" 
+        id="timelineFill" 
+      ></span> 
+    </span> 
 
-<section class="band schedule">
 
-  <p
-    class="kicker"
-    data-reveal
-  >
-    Düğünümüz
-  </p>
+    <!-- 16:00 -->
+    <li 
+      class="timeline__item" 
+      data-reveal 
+    > 
+      <span class="timeline__dot"></span> 
+      <time>16:00</time> 
+<h3>Hoş Geldiniz</h3>
+<p>Karşılama · Kokteyl · Müzik</p>
+    </li> 
 
 
-  <h2
-    class="heading heading--script"
-    data-reveal
-    style="--d:.06s"
-  >
-    Günün Akışı
-  </h2>
+    <!-- DÜĞÜN GAZETESİ -->
+    <li 
+      class="timeline__item timeline__item--note" 
+      data-reveal 
+    > 
+      <span class="timeline__dot"></span> 
+      <span class="timeline__icon">📰</span>
+      <h3>Düğün Gazetesi</h3>
+      <p>
+        Düğün gazetemizden bir tane almayı unutmayın.
+      </p>
+    </li>
 
+
+    <!-- SESLİ ANI -->
+    <li 
+      class="timeline__item timeline__item--note" 
+      data-reveal 
+    > 
+      <span class="timeline__dot"></span> 
+      <span class="timeline__icon">☎</span>
+      <h3>Sesli Anı Köşesi</h3>
+      <p>
+        Telefonu kaldırın ve bize sesli bir hatıra bırakın.
+      </p>
+    </li>
+
+
+    <!-- 16:45 -->
+    <li 
+      class="timeline__item" 
+      data-reveal 
+    > 
+      <span class="timeline__dot"></span> 
+      <time>16:45</time> 
+      <h3>
+        Nikah Töreni 
+      </h3> 
+    </li> 
+
+
+    <!-- 17:00 -->
+    <li 
+      class="timeline__item" 
+      data-reveal 
+    > 
+      <span class="timeline__dot"></span> 
+      <time>17:00</time> 
+      <h3>İlk Dansımız</h3> 
+    </li> 
+
+
+    <!-- YEMEK -->
+    <li 
+      class="timeline__item" 
+      data-reveal 
+    > 
+      <span class="timeline__dot"></span> 
+      <h3>Akşam Yemeği</h3> 
+    </li> 
+
+
+    <!-- EĞLENCE -->
+    <li 
+      class="timeline__item" 
+      data-reveal 
+    > 
+      <span class="timeline__dot"></span> 
+      <h3>Dans &amp; Eğlence</h3> 
+    </li> 
+
+
+    <!-- KINA -->
+    <li 
+      class="timeline__item" 
+      data-reveal 
+    > 
+      <span class="timeline__dot"></span> 
+      <h3>Kına Töreni</h3> 
+    </li> 
+
+
+    <!-- PASTA -->
+    <li 
+      class="timeline__item" 
+      data-reveal 
+    > 
+      <span class="timeline__dot"></span> 
+      <h3>Pasta Kesimi</h3> 
+    </li> 
+
+
+    <!-- TAKI -->
+    <li 
+      class="timeline__item" 
+      data-reveal 
+    > 
+      <span class="timeline__dot"></span> 
+      <h3>Takı Töreni</h3> 
+    </li> 
+
+
+    <!-- EĞLENCE & FOTOĞRAFLAR -->
+    <li 
+      class="timeline__item" 
+      data-reveal 
+    > 
+      <span class="timeline__dot"></span> 
+      <h3>Eğlence &amp; Fotoğraflar</h3> 
+    </li> 
+
+
+    <!-- 20:00 -->
+    <li 
+      class="timeline__item" 
+      data-reveal 
+    > 
+      <span class="timeline__dot"></span> 
+      <time>20:00</time> 
+      <h3>Gecenin Sonu</h3> 
+    </li> 
+ 
+  </ol> 
+ 
+</section>
+
+<!-- =====================================================
+     BU GECEYİ HATIRLAYALIM
+     ===================================================== -->
+
+<section class="band invite">
 
   <div
-    class="rule"
+    class="invite__names"
     data-reveal
-    style="--d:.12s"
   >
 
-    <span class="rule__line"></span>
+    <span class="invite__name">
+      Küçük hatıralar
+    </span>
 
-    <svg
-      class="rule__mark"
-      viewBox="0 0 40 16"
-      aria-hidden="true"
-    >
-      <path
-        d="M20 2c3 4 6 5 10 6-4 1-7 2-10 6-3-4-6-5-10-6 4-1 7-2 10-6Z"
-        fill="currentColor"
-        opacity=".55"
-      />
-    </svg>
+    <span class="invite__amp">
+      &amp;
+    </span>
 
-    <span class="rule__line"></span>
-
+    <span class="invite__name">
+      Büyük mutluluklar
+    </span>
+    <p class="memory-intro">
+      “Hatırda kalan, günler değil; güzel anlardır.”
+    </p>
   </div>
 
 
-  <ol
-    class="timeline"
-    id="timeline"
-  >
 
-    <span
-      class="timeline__track"
-      aria-hidden="true"
-    >
-      <span
-        class="timeline__fill"
-        id="timelineFill"
-      ></span>
-    </span>
+  <!-- DÜĞÜN GAZETESİ -->
+  <article class="memory-card" data-reveal>
 
+    <div class="memory-image">
+      <img
+        src="dugun-gazetesi.png"
+        alt="Tuğba ve Alp Eren düğün gazetesi"
+      >
+    </div>
 
-    <li
-      class="timeline__item"
-      data-reveal
-    >
-      <span class="timeline__dot"></span>
-      <time>16:00</time>
-      <h3>Karşılama &amp; Kokteyl</h3>
-    </li>
+    <div class="memory-copy">
 
+      <span class="memory-number">01</span>
 
-    <li
-      class="timeline__item"
-      data-reveal
-    >
-      <span class="timeline__dot"></span>
-      <time>16:30</time>
-      <h3>Müzik &amp; Eğlence</h3>
-    </li>
+      <h3>Düğün Gazetemiz</h3>
+
+      <p class="memory-script">
+        Bir tane almayı unutmayın.
+      </p>
+
+      <p>
+        Hikayemiz, küçük sürprizler, bulmacalar
+        ve gecenin detayları sayfaların arasında
+        sizi bekliyor.
+      </p>
+
+    </div>
+
+  </article>
 
 
-    <li
-      class="timeline__item"
-      data-reveal
-    >
-      <span class="timeline__dot"></span>
-      <time>17:00</time>
-      <h3>
-        Nikâh Töreni &amp;
-        Balonların Gökyüzüne Bırakılması
-      </h3>
-    </li>
+  <!-- SESLİ ANI -->
+  <article class="memory-card memory-card--reverse" data-reveal>
+
+    <div class="memory-image">
+      <img
+        src="audio-guestbook.png"
+        alt="Sesli anı telefonu"
+      >
+    </div>
+
+    <div class="memory-copy">
+
+      <span class="memory-number">02</span>
+
+      <h3>Sesinizi Bize Bırakın</h3>
+
+      <p class="memory-script">
+        Telefonu kaldırın, bip sesini bekleyin ve konuşun...
+      </p>
+
+      <p>
+        Bir dilek, bir anı ya da yıllar sonra
+        dinlediğimizde bizi gülümsetecek birkaç
+        kelime bırakın.
+      </p>
+
+    </div>
+
+  </article>
 
 
-    <li
-      class="timeline__item"
-      data-reveal
-    >
-      <span class="timeline__dot"></span>
-      <time>17:20</time>
-      <h3>İlk Dansımız</h3>
-    </li>
+  <!-- ORTAK ALBÜM -->
+  <article class="memory-card" data-reveal>
 
 
-    <li
-      class="timeline__item"
-      data-reveal
-    >
-      <span class="timeline__dot"></span>
-      <time>17:30</time>
-      <h3>Dans &amp; Eğlence</h3>
-    </li>
+    <div class="memory-copy">
+
+      <span class="memory-number">03</span>
+
+      <h3>Geceyi Sizin Gözünüzden de Görelim</h3>
+
+      <p class="memory-script">
+        Çektiğiniz anları bizimle paylaşın.
+      </p>
+
+      <p>
+        Fotoğraf ve videolarınızı ortak albümümüze
+        ekleyin. Bu geceyi sizin gözünüzden de
+        görmek istiyoruz.
+      </p>
+
+      <div class="memory-qr-placeholder">
+        QR
+        <small>Ortak Albüm</small>
+      </div>
+
+    </div>
+
+  </article>
 
 
-    <li
-      class="timeline__item"
-      data-reveal
-    >
-      <span class="timeline__dot"></span>
-      <time>17:45</time>
-      <h3>Akşam Yemeği</h3>
-    </li>
-
-
-    <li
-      class="timeline__item"
-      data-reveal
-    >
-      <span class="timeline__dot"></span>
-      <time>18:20</time>
-      <h3>Zeybek &amp; Halk Oyunları</h3>
-    </li>
-
-
-    <li
-      class="timeline__item"
-      data-reveal
-    >
-      <span class="timeline__dot"></span>
-      <time>18:40</time>
-      <h3>Pasta Kesimi</h3>
-    </li>
-
-
-    <li
-      class="timeline__item"
-      data-reveal
-    >
-      <span class="timeline__dot"></span>
-      <time>18:55</time>
-      <h3>Kına Töreni</h3>
-    </li>
-
-
-    <li
-      class="timeline__item"
-      data-reveal
-    >
-      <span class="timeline__dot"></span>
-      <time>19:15</time>
-      <h3>Takı Töreni</h3>
-    </li>
-
-
-    <li
-      class="timeline__item"
-      data-reveal
-    >
-      <span class="timeline__dot"></span>
-      <time>19:45</time>
-      <h3>Final Dansları &amp; Fotoğraflar</h3>
-    </li>
-
-
-    <li
-      class="timeline__item"
-      data-reveal
-    >
-      <span class="timeline__dot"></span>
-      <time>20:00</time>
-      <h3>Gecenin Sonu</h3>
-    </li>
-
-  </ol>
+  <div class="memory-ending" data-reveal>
+    <span>❦</span>
+    <p>Bu gecenin hikayesine sizden de bir parça kalsın...</p>
+  </div>
 
 </section>
-
-
 
 <!-- =========================================
      7. INVITATION DETAILS
@@ -801,7 +945,7 @@
     data-reveal
     style="--d:.08s"
   >
-    Bir ömürlük hikâyemizin en güzel başlangıcında
+    Bir ömürlük hikayemizin en güzel başlangıcında
     sizi de yanımızda görmek dileğiyle.
   </p>
 
@@ -846,7 +990,7 @@
       data-reveal
       style="--d:.24s"
     >
-      <dt>Mekân</dt>
+      <dt>Mekan</dt>
       <dd>Wonders · Beştepe, Ankara</dd>
     </div>
 
@@ -862,14 +1006,10 @@
   </dl>
 
 </section>
-
-
-
 <!-- =========================================
      8. RSVP
      ORIGINAL STRUCTURE — TURKISH TEXT
 ========================================= -->
-
 <section
   class="band rsvp"
   id="rsvp"
@@ -899,7 +1039,6 @@
     data-reveal="wipe"
     style="--d:.12s"
   >
-
 
     <!-- KATILIM -->
 
@@ -951,127 +1090,157 @@
 
     <!-- SADECE KATILACAKLAR -->
 
-    <div
-      class="conditional"
-      id="ifYes"
+<div
+  class="conditional"
+  id="ifYes"
+>
+
+
+  <!-- KİŞİ SAYISI -->
+
+  <div class="field">
+
+    <label
+      class="label"
+      for="guestCount"
     >
+      Kaç kişi katılacaksınız?
+    </label>
 
 
-      <!-- KİŞİ SAYISI -->
+    <div class="stepper">
 
-      <div class="field">
-
-        <label
-          class="label"
-          for="guestCount"
-        >
-          Kaç kişi katılacaksınız?
-        </label>
-
-
-        <div class="stepper">
-
-          <button
-            type="button"
-            class="stepper__btn"
-            data-step="-1"
-            aria-label="Kişi sayısını azalt"
-          >
-            &minus;
-          </button>
+      <button
+        type="button"
+        class="stepper__btn"
+        data-step="-1"
+        aria-label="Kişi sayısını azalt"
+      >
+        &minus;
+      </button>
 
 
-          <output
-            class="stepper__val"
-            id="guestCount"
-          >
-            1
-          </output>
+      <output
+        class="stepper__val"
+        id="guestCount"
+      >
+        1
+      </output>
 
 
-          <button
-            type="button"
-            class="stepper__btn"
-            data-step="1"
-            aria-label="Kişi sayısını artır"
-          >
-            +
-          </button>
-
-        </div>
-
-      </div>
-
-
-
-      <!-- İSİM -->
-
-      <div class="field">
-
-        <label
-          class="label"
-          for="principal"
-        >
-          Adınız Soyadınız
-        </label>
-
-
-        <input
-          class="input"
-          id="principal"
-          name="principal"
-          type="text"
-          placeholder="Ad Soyad"
-          autocomplete="name"
-        />
-
-      </div>
-
-
-
-      <!-- ÇOCUK -->
-
-      <fieldset class="field">
-
-        <legend>
-          Sizinle birlikte çocuk misafirimiz olacak mı?
-        </legend>
-
-
-        <div class="choices">
-
-          <label class="choice">
-
-            <input
-              type="radio"
-              name="children"
-              value="yes"
-            />
-
-            <span>Evet</span>
-
-          </label>
-
-
-          <label class="choice">
-
-            <input
-              type="radio"
-              name="children"
-              value="no"
-            />
-
-            <span>Hayır</span>
-
-          </label>
-
-        </div>
-
-      </fieldset>
+      <button
+        type="button"
+        class="stepper__btn"
+        data-step="1"
+        aria-label="Kişi sayısını artır"
+      >
+        +
+      </button>
 
     </div>
 
+  </div>
 
+
+
+  <!-- İSİM -->
+
+  <div class="field">
+
+    <label
+      class="label"
+      for="principal"
+    >
+      Adınız Soyadınız
+    </label>
+
+
+    <input
+      class="input"
+      id="principal"
+      name="principal"
+      type="text"
+      placeholder="Ad Soyad"
+      autocomplete="name"
+    />
+
+  </div>
+
+
+
+  <!-- ÇOCUK SAYISI -->
+
+<div class="field">
+
+  <label
+    class="label"
+    for="childCount"
+  >
+    Katılacak çocuk sayısı
+  </label>
+
+  <div class="stepper">
+
+    <button
+      type="button"
+      class="stepper__btn"
+      data-child-step="-1"
+      aria-label="Çocuk sayısını azalt"
+    >
+      &minus;
+    </button>
+
+    <output
+      class="stepper__val"
+      id="childCount"
+    >
+      0
+    </output>
+
+    <button
+      type="button"
+      class="stepper__btn"
+      data-child-step="1"
+      aria-label="Çocuk sayısını artır"
+    >
+      +
+    </button>
+
+  </div>
+
+</div>
+
+  <!-- BESLENME / ALERJİ -->
+
+  <div class="field dietary-field">
+
+    <label
+      class="label"
+      for="dietary"
+    >
+      Sizin için bilmemiz gereken bir şey var mı?
+    </label>
+
+
+    <p class="field__hint">
+      Vejetaryen veya vegan menü tercihinizi, gıda alerjinizi
+      ya da özel bir beslenme ihtiyacınızı bizimle paylaşabilirsiniz.
+    </p>
+
+
+    <textarea
+      class="input"
+      id="dietary"
+      name="dietary"
+      rows="3"
+      placeholder="Varsa notunuzu buraya yazabilirsiniz..."
+    ></textarea>
+
+  </div>
+
+
+</div>
+<!-- SADECE KATILACAKLAR SONU -->
 
     <!-- MESAJ -->
 
@@ -1186,7 +1355,7 @@
 
 
   <p class="footer__line">
-    “Hikâyemizin en güzel gününde,
+    “Hikayemizin en güzel gününde,
     sizi de yanımızda görmek dileğiyle.”
   </p>
 
@@ -1206,7 +1375,7 @@
 </main>
 
 
-<script src="/tugba_alp_dugun_assets/main.js"></script>
+<script src="main.js"></script>
 
 </body>
 </html>
